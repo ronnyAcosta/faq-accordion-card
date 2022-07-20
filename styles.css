@@ -13,7 +13,8 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 110vh;
+    min-height: 110vh;
+    height: 100%;
     background: linear-gradient(180deg, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
 }
 .container{
@@ -128,7 +129,7 @@ hr{
 @media screen and (max-width: 860px) {
 
     body{
-        height: 140vh;
+        min-height: 120vh;
     }
     .container{
         flex-direction: column;
