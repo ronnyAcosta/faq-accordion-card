@@ -16,6 +16,7 @@ body{
     min-height: 110vh;
     height: 100%;
     background: linear-gradient(180deg, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+
 }
 .container{
     display: flex;
@@ -27,6 +28,7 @@ body{
     width: 100%;
     margin: 0 50px;
     border-radius: 25px;
+    
 }
 
 .woman-container{
@@ -37,10 +39,7 @@ body{
 }
 .woman{
     position: relative;
-    left: -85px;
-    z-index: 1;
-    /*filter: drop-shadow(0 90px 2px #bbbbbb7a);*/
-    
+    left: -85px;  
 }
 .pattern-container{
     position: relative;
@@ -64,14 +63,13 @@ body{
     position:  absolute;
     left: -95px;
     top: -50px;
-    z-index: 2;
+    z-index: 1;
    
 }
 main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     max-width: 325px;
     width: 100%;
     
@@ -134,11 +132,8 @@ hr{
     .container{
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         max-width: 360px;
         padding: 40px 30px 65px;
-        width: 100%;
-        margin: 0 50px;
     }
     
     .woman-container{
@@ -148,22 +143,14 @@ hr{
     .woman{
         left: -0px;
         top: -160px;
-        width: 270px;
-        z-index: 1;
-        /*filter: drop-shadow(0 90px 2px #bbbbbb7a);*/
-        
+        width: 270px; 
     }
    
     .pattern-container{
         display: none;
     }
     
-    .box-container{
-        position: relative;
-    }
-    
     .box{
-        position:  absolute;
         left: -140px;
         top: -80px;
         width: 100px;
